@@ -41,7 +41,9 @@ QRENCODE_ARCHIVE="qrencode-3.4.4.tar.bz2"
 
 # Boost archive.
 #------------------------------------------------------------------------------
-BOOST_URL="https://boostorg.jfrog.io/artifactory/main/release/1.71.0/source/boost_1_71_0.tar.gz"
+# BOOST_URL="https://boostorg.jfrog.io/artifactory/main/release/1.71.0/source/boost_1_71_0.tar.gz"
+# the new boost download url
+BOOST_URL="https://archives.boost.io/release/1.71.0/source/boost_1_71_0.tar.gz"
 BOOST_ARCHIVE="boost_1_71_0.tar.gz"
 
 # miniupnpc archive
