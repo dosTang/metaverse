@@ -16,7 +16,7 @@ ENV IS_TRAVIS_LINUX 1
 RUN cd /tmp/metaverse && /bin/bash install_dependencies.sh --build-boost --build-upnpc
 
 RUN cd /tmp/metaverse \
-  && mkdir -p build && cd build && cmake .. && make -j4
+  && mkdir -p build && cd build && cmake .. && make -j8
 
 FROM debian:bullseye-slim
 LABEL maintainer="Team Metaverse <dev@mvs.org>" version="0.1.1" description="This is mvs-org/metaverse image" website="http://mvs.org/"
