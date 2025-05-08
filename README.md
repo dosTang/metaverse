@@ -52,7 +52,7 @@ $ sudo ./install_dependencies.sh --build-boost --build-upnpc
 ```bash
 $ sudo yum/brew/apt-get install libboost-all-dev
 ```
-[Download Boost 1.69.0](https://dl.bintray.com/boostorg/release/1.69.0/source/boost_1_69_0.tar.gz).
+[Download Boost 1.69.0](https://archives.boost.io/release/1.69.0/source/boost_1_69_0.tar.gz).
 
 ## zeromq 4.2.1+
 ```bash
@@ -94,7 +94,7 @@ $ sudo INSTALLPREFIX=/usr/local make install && sudo ldconfig
 
 # Building
 ```bash
-$ git clone https://github.com/mvs-org/metaverse.git
+$ git clone https://github.com/dosTang/metaverse.git
 $ cd metaverse && mkdir build && cd build
 $ cmake -DUSE_UPNP=OFF ..
 $ make -j4
@@ -134,7 +134,7 @@ curl -fsSL https://get.docker.com | bash -s docker
 
 ## Build Metaverse docker image
 ```
-git clone https://github.com/mvs-org/metaverse.git
+git clone https://github.com/dosTang/metaverse.git
 cd metaverse
 docker build -t metaverse -f docker/Dockerfile .
 ```
