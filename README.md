@@ -129,7 +129,7 @@ Read More [Command line usage](https://docs.mvs.org/docs/command-line.html) and 
 ## Preparation
 Install [Docker](https://docs.docker.com/).
 ```
-wget qO https://get.docker.com/ | sh
+curl -fsSL https://get.docker.com | bash -s docker
 ```
 
 ## Build Metaverse docker image
